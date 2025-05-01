@@ -30,7 +30,7 @@ The Healthcare Multilingual Assistant is a web application that allows for:
 - **Translation**: (Currently using a mock translation service, configurable for Google Cloud Translation API)
 - **File Handling**: Multer for audio file uploads
 
-## Prerequisites
+## Prerequisite
 
 - Node.js (v14+)
 - npm (v6+)
