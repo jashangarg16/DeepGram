@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #f1f8ff;
+    border-bottom: 1px solid #d1e7ff;
+  }
+  
+  #originalText, #translatedText, #translatedResponse {
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+  }
+  
+  #conversationHistory {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .message.patient {
+    background-color: #e6f7ff;
+    border-left: 4px solid #1890ff;
+  }
+  
+  .message.provider {
+    background-color: #f6ffed;
+    border-left: 4px solid #52c41a;
+  }
+  
+  .message.provider-translated {
+    background-color: #fff7e6;
+    border-left: 4px solid #fa8c16;
+  }
+  
+  .message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .timestamp {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+  }
+  
+  .message-body {
+    word-break: break-word;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
+  #startRecord {
+    background-color: #52c41a;
+    border-color: #52c41a;
+  }
+  
+  #stopRecord {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+  }
